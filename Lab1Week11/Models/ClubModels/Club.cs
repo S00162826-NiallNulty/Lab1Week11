@@ -20,6 +20,7 @@ namespace Lab1Week11.Models.ClubModel
         public DateTime CreationDate { get; set; }
 
         public int adminID { get; set; }
+
         public virtual ICollection<Member> clubMembers { get; set; }
         public virtual ICollection<ClubEvent> clubEvents { get; set; }
         
